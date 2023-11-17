@@ -10,7 +10,7 @@
   },
   "login": {
     "welcome": {
-      "title":  "It’s good to have you back!",
+      "title": "It’s good to have you back!",
       "text": "Welcome to our secure portal! To access the full functionality of our app, kindly\nprovide your credentials below. Your privacy is our priority."
     },
     "form": {
@@ -50,7 +50,6 @@
       "confirmation": "Are you sure?",
       "cancel": "Cancel",
       "confirm": "Discard"
-
     },
     "discardButtonText": "Discard",
     "discardConfirmTitle": "Discard Task",

@@ -1,7 +1,4 @@
 import {createSlice, PayloadAction, nanoid} from '@reduxjs/toolkit';
-import {enableMapSet} from 'immer';
-
-enableMapSet();
 
 export type Task = {id: string; title: string; completed?: boolean; description?: string};
 export type TasksState = {items: Task[]};
@@ -27,7 +24,7 @@ export const tasksSlice = createSlice({
     edit: (state, action: EditPayloadAction) => {
       const editedTask = action.payload;
 
-      state.items.map((task) => {
+      state.items = state.items.map((task) => {
         if (task.id === editedTask.id) {
           return {...task, ...editedTask};
         }
