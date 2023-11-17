@@ -1,9 +1,9 @@
 import {Box, Flex, Heading} from '@chakra-ui/react';
+import {useTranslation} from 'react-i18next';
 
 import {Task as ITask} from 'store/tasks';
 
 import {Task} from './task/Task';
-import {useTranslation} from 'react-i18next';
 
 type Props = {tasks: ITask[]};
 
