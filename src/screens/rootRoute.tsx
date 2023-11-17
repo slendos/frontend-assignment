@@ -1,8 +1,8 @@
 import {Helmet} from 'react-helmet-async';
 import {useTranslation} from 'react-i18next';
-import {Welcome} from './pages';
+import {Outlet, RootRoute} from '@tanstack/react-router';
 
-function App() {
+function Root() {
   const {i18n, t} = useTranslation();
 
   return (
@@ -15,12 +15,11 @@ function App() {
         <meta name="description" content={t('app.description')} />
       </Helmet>
 
-      {/**
-       * start from here
-       */}
-      <Welcome />
+      <Outlet />
     </>
   );
 }
 
-export default App;
+export const rootRoute = new RootRoute({
+  component: Root,
+});

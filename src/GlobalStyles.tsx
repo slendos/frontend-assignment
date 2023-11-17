@@ -31,12 +31,15 @@ const GlobalStyle = createGlobalStyle`
      font-size: 100%;
      font: inherit;
      vertical-align: baseline;
-     background-color: #E5E5E5;
      color: #091E42;
    }
    html, body, #root{
     height: 100%;
   }
+   
+   body {
+    background-color: #F1F2F6
+   }
 
    a {
      text-decoration: none;

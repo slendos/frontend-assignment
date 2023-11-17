@@ -1,5 +1,62 @@
 {
   "app.title": "Carvago Frontend Assignment",
   "app.description": "Assignment in React.js for developers who want to join our team.",
-  "welcome.message": "Welcome to Carvago Front-End Assignment"
+  "general": {
+    "form": {
+      "errors": {
+        "required": "This field is mandatory."
+      }
+    }
+  },
+  "login": {
+    "welcome": {
+      "title":  "It’s good to have you back!",
+      "text": "Welcome to our secure portal! To access the full functionality of our app, kindly\nprovide your credentials below. Your privacy is our priority."
+    },
+    "form": {
+      "usernameLabel": "Username",
+      "passwordLabel": "Password",
+      "submitButtonText": "Log in",
+      "loginFail": "Password or username is incorrect."
+    }
+  },
+  "dashboard": {
+    "motivationalMessage": "You are amazing!",
+    "noMoreTasks": "There is no more tasks to do.",
+    "welcomeText": "Hello {{name}}!",
+    "completed": {
+      "title": "Completed"
+    },
+    "todo": {
+      "title": "To-do",
+      "editText": "Edit",
+      "addButtonText": "Add Task",
+      "delete": {
+        "buttonText": "Delete",
+        "confirmTitle": "Delete task",
+        "confirmation": "Are you sure?",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "createTask": {
+    "heading": "New Task",
+    "titleLabel": "Task name",
+    "descriptionLabel": "Description (optional)",
+    "submitText": "Create task",
+    "discard": {
+      "buttonText": "Discard",
+      "confirmTitle": "Discard Task",
+      "confirmation": "Are you sure?",
+      "cancel": "Cancel",
+      "confirm": "Discard"
+
+    },
+    "discardButtonText": "Discard",
+    "discardConfirmTitle": "Discard Task",
+    "confirmation": "Are you sure?"
+  },
+  "editTask": {
+    "submitButtonText": "Save changes"
+  }
 }
